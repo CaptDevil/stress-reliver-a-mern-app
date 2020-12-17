@@ -8,7 +8,7 @@ class Outputs extends Component {
 
     componentDidMount(){
         this.timerID = setInterval(()=>{
-            axios.get('https://pure-escarpment-83534.herokuapp.com/api/send')
+            axios.get('/api/send')
                 .then(res=> this.setState({messages:res.data}))
         },1000)
     }

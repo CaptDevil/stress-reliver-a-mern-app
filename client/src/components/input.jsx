@@ -9,7 +9,7 @@ class Inputs extends Component {
     handleSubmit=(e)=>{
         e.preventDefault()
         const val = this.state;
-        axios.post('https://pure-escarpment-83534.herokuapp.com/api/send',{val})
+        axios.post('/api/send',{val})
             .then(res=>{
                 console.log(res)
                 console.log(res.data)
