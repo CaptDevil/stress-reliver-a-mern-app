@@ -14,7 +14,7 @@ class Outputs extends Component {
     }
 
     componentWillUnmount(){
-        clearImmediate(this.timerID)
+        clearInterval(this.timerID)
     }
 
     render() { 
