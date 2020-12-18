@@ -22,7 +22,7 @@ class Inputs extends Component {
             <form onSubmit={this.handleSubmit}>
                 <div className="input-group mb-3">
                     <input type="text" className="form-control" placeholder="Type your thoughts here..." value={this.state.value} onChange={(e)=>{this.setState({value: e.target.value})}} aria-label="Recipient's username" aria-describedby="button-addon2"/>
-                    <input className="btn btn-outline-success" value="Send" onClick={()=>{this.props.onInput(this.state.value)}} type="submit" id="button-addon2"/>
+                    <input className="btn btn-outline-success" value="Send" type="submit"/>
                 </div>
             </form>
         );
