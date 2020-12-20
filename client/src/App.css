@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .App {
   text-align: center;
 }
@@ -41,4 +42,8 @@
   max-height: 73vh;
   width: 100%;
   overflow: auto;
+}
+
+#about-u {
+  font-family: 'Montserrat',sans-serif;
 }
